@@ -1,0 +1,20 @@
+{
+  "name": "translater",
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "英語を楽に日本語に訳す",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "translater.js"
+  },
+  "action":{"default_icon": {
+    "16": "img/icon-t-16.png",
+    "24": "img/icon-t-24.png",
+    "32": "img/icon-t-32.png"
+  }}
+
+}
